@@ -1,7 +1,7 @@
-import { Command } from "@cameleo/cli";
+import { Cmd } from "@cameleo/cli";
 
 export class CliController {
-    @Command()
+    @Cmd()
     hello() {
         return 'Hello world'
     }
